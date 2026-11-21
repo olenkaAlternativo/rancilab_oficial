@@ -1,5 +1,5 @@
-# 1. Compilación con Maven y Java 17
-FROM maven:3.9-eclipse-temurin-17 AS build
+# 1. Compilación con Maven y Java 11
+FROM maven:3.9-eclipse-temurin-11 AS build
 WORKDIR /app
 COPY pom.xml .
 COPY src ./src
